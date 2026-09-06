@@ -18,8 +18,7 @@ int main()
         cout << "4. Division\n";
         cout << "5. Square Root\n";
         cout << "6. Average\n";
-        cout << "7. Maximum of Two Numbers\n";
-        cout << "8. Exit\n";
+        cout << "7. Exit\n";
         cout << "============================\n";
 
         cout << "Enter your choice: ";
@@ -111,26 +110,6 @@ int main()
             break;
 
         case 7:
-            cout << "Enter first number: ";
-            cin >> firstNumber;
-
-            cout << "Enter second number: ";
-            cin >> secondNumber;
-
-            if (firstNumber > secondNumber)
-            {
-                cout << "Maximum: "
-                     << firstNumber << "\n";
-            }
-            else
-            {
-                cout << "Maximum: "
-                     << secondNumber << "\n";
-            }
-
-            break;
-
-        case 8:
             cout << "Exiting calculator...\n";
             break;
 
@@ -138,7 +117,7 @@ int main()
             cout << "Invalid choice. Please select 1 to 8.\n";
         }
 
-    } while (choice != 8);
+    } while (choice != 7);
 
     return 0;
 }
